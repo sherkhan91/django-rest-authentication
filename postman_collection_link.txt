@@ -1,0 +1,2 @@
+Import the following public collection for testing in postman 
+https://www.getpostman.com/collections/eb8de623b7aea04d272f
