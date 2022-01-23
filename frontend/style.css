@@ -1,0 +1,18 @@
+.pcolor{
+    color:blue;
+}
+.body{
+    padding-top: 70px;
+}
+.errors{
+    color:red;
+    font-style: italic;
+}
+.success{
+ color: green;   
+}
+
+.maincontent{
+    padding-top: 70px; 
+    margin-left: 100px;
+}

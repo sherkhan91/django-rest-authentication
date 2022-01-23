@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Update user</title>
+
+<link rel="stylesheet" href="../style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../javascript_functions.js"></script>
+</head>
+<body>
+<div class="m-4"> 
+    <!-- add nave bar code Here -->
+    <div id="nav-placeholder">
+    </div>
+
+    <!-- here main content -->
+    <div class="container" style="padding-top: 70px; margin-left: 100px;">
+        <p class="errors" id="errorlines"></p>
+        <form class="form-horizontal" action=""  id="updateformid">
+            <fieldset>
+                <div id="legend">
+                    <legend class="">Update user</legend>
+                </div>
+                <div class="control-group">
+                    <label class="control-label"  for="ufirst_name">First name</label>
+                    <div class="controls">
+                        <input type="text" id="ufirst_name" name="ufirst_name" placeholder="Sher" class="input-xlarge">
+                        <p class="help-block">Enter your updated first name</p>
+                    </div>
+                    <label class="control-label" for="ulast_name">Last name</label>
+                    <div class="controls">
+                        <input type="text" id="ulast_name" name="ulast_name" placeholder="Mari" class="input-xlarge">
+                        <p class="help-block">Enter your updated last name</p>
+                    </div>
+                    <button type="button"  id="userupdatebtn">Update</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+</body>
